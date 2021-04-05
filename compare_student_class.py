@@ -74,7 +74,7 @@ for i in range(3):
         numbers = inpusts.split(' ')
         list_student_B.append(numbers)
 
-vorodi_clss = Health(num1, num2, list_daneshamoz_A, list_daneshamoz_B)
+vorodi_clss = Health(num1, num2, list_student_A, list_student_B)
 vorodi_clss.get_cls()
 vorodi_clss1 = Bartari()
 
