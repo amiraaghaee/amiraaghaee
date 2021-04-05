@@ -61,18 +61,18 @@ class Compare(Health):
 
 num1 = int(input())
 
-list_daneshamoz_A = []
+list_student_A = []
 for i in range(3):
-        vorodi = input()
-        adadha = vorodi.split(' ')
-        list_daneshamoz_A.append(adadha)
+        inpusts = input()
+        numbers = inpusts.split(' ')
+        list_student_A.append(numbers)
 
 num2 = int(input())
-list_daneshamoz_B = []
+list_student_B = []
 for i in range(3):
-        vorodi = input()
-        adadha = vorodi.split(' ')
-        list_daneshamoz_B.append(adadha)
+        inpusts = input()
+        numbers = inpusts.split(' ')
+        list_student_B.append(numbers)
 
 vorodi_clss = Health(num1, num2, list_daneshamoz_A, list_daneshamoz_B)
 vorodi_clss.get_cls()
