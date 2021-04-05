@@ -76,7 +76,7 @@ for i in range(3):
 
 vorodi_clss = Health(num1, num2, list_student_A, list_student_B)
 vorodi_clss.get_cls()
-vorodi_clss1 = Bartari()
+
 
 
 
